@@ -1,6 +1,12 @@
 Description:
 This is a Node.js-based Console Application for managing guest data. The application allows users to add, update, delete, view, and list guest records through simple command-line instructions. The app utilizes yargs for handling command-line arguments and chalk for styling terminal output.
 
+**
+The node_modules folder is not included in this repository. To install the necessary dependencies, run the following command after cloning the repository:
+npm install 
+**
+
+
 Features:
 *Add Guest: Allows adding a new guest with their name, address, contact number, and date.
 *Update Guest: Updates existing guest records using their unique ID.
