@@ -1,0 +1,22 @@
+{
+  "name": "guest_data",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Chamath Hasaranga",
+  "license": "ISC",
+  "description": "Guest Data",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
